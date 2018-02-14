@@ -16,6 +16,35 @@ git diff
 # Add to staging stage
 git add -A
 
-# Committing to 
+# Commit locally
 git commit -m "Your message"
+
+# Pull changes to master branch of remote repo
+git pull origin master
+
+# Push changes to master branch of remote repo
+git push origin master
+
+### General work flow
+# Create a branch
+git branch my-branch
+
+# To check merged branches
+git branch --merged
+
+# Delete a local branch
+git branch -d my-branch
+
+# Delete a remote branch
+git push origin --delete my-branch
+
+# Change to my-branch
+git checkout my-branch
+git add -A
+git commit -m "Your message"
+git push -u origin my-branch
+git checkout master
+git pull origin master
+git merge my-branch
+git push origin master
 
