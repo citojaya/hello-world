@@ -1,0 +1,21 @@
+GIT
+
+# Clone remote repository
+git clone <remote-url> <local-directory>
+
+
+# Remote information
+git remote -v
+
+# All the branch information local and remote
+git branch -a
+
+# Show differences between local and remote
+git diff
+
+# Add to staging stage
+git add -A
+
+# Committing to 
+git commit -m "Your message"
+
